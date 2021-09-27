@@ -25,7 +25,7 @@ public class UdemyLogin {
 	public void afterTest() throws Exception
 	{
 		Thread.sleep(2000);
-	//	driver.quit();
+		driver.quit();
 	}
 	
 	@Test
