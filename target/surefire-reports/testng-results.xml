@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8870" started-at="2021-09-27T06:52:51Z" finished-at="2021-09-27T06:53:00Z">
+  <suite started-at="2021-09-27T06:55:04Z" name="Suite" finished-at="2021-09-27T06:55:13Z" duration-ms="8741">
     <groups>
     </groups>
-    <test name="Test" duration-ms="35" started-at="2021-09-27T06:52:51Z" finished-at="2021-09-27T06:52:51Z">
+    <test started-at="2021-09-27T06:55:04Z" name="Test" finished-at="2021-09-27T06:55:04Z" duration-ms="46">
       <class name="LoginTest.AppTest">
-        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:LoginTest.AppTest@b62fe6d]" name="invalidLogin" duration-ms="13" started-at="2021-09-27T06:52:51Z" description="invalid test" finished-at="2021-09-27T06:52:51Z">
+        <test-method signature="invalidLogin()[pri:0, instance:LoginTest.AppTest@59d4cd39]" started-at="2021-09-27T06:55:04Z" name="invalidLogin" description="invalid test" finished-at="2021-09-27T06:55:04Z" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:LoginTest.AppTest@b62fe6d]" name="validLogin" duration-ms="0" started-at="2021-09-27T06:52:51Z" description="valid test" finished-at="2021-09-27T06:52:51Z">
+        <test-method signature="validLogin()[pri:0, instance:LoginTest.AppTest@59d4cd39]" started-at="2021-09-27T06:55:04Z" name="validLogin" description="valid test" finished-at="2021-09-27T06:55:04Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
       </class> <!-- LoginTest.AppTest -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="0" started-at="2021-09-27T06:52:51Z" finished-at="2021-09-27T06:52:51Z">
+    <test started-at="2021-09-27T06:55:04Z" name="Test1" finished-at="2021-09-27T06:55:04Z" duration-ms="0">
       <class name="LoginTest.ComparisionTest">
-        <test-method status="PASS" signature="checkingComparision()[pri:0, instance:LoginTest.ComparisionTest@4b44655e]" name="checkingComparision" duration-ms="0" started-at="2021-09-27T06:52:51Z" finished-at="2021-09-27T06:52:51Z">
+        <test-method signature="checkingComparision()[pri:0, instance:LoginTest.ComparisionTest@490caf5f]" started-at="2021-09-27T06:55:04Z" name="checkingComparision" finished-at="2021-09-27T06:55:04Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingComparision -->
       </class> <!-- LoginTest.ComparisionTest -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="8815" started-at="2021-09-27T06:52:51Z" finished-at="2021-09-27T06:53:00Z">
+    <test started-at="2021-09-27T06:55:04Z" name="Test2" finished-at="2021-09-27T06:55:13Z" duration-ms="8647">
       <class name="LoginTest.UdemyLogin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginTest.UdemyLogin@1e730495]" name="beforeTest" is-config="true" duration-ms="1945" started-at="2021-09-27T06:52:51Z" finished-at="2021-09-27T06:52:53Z">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:LoginTest.UdemyLogin@5e403b4a]" started-at="2021-09-27T06:55:04Z" name="beforeTest" finished-at="2021-09-27T06:55:06Z" duration-ms="2029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:LoginTest.UdemyLogin@1e730495]" name="doLogin" duration-ms="4140" started-at="2021-09-27T06:52:53Z" finished-at="2021-09-27T06:52:57Z">
+        <test-method signature="doLogin()[pri:0, instance:LoginTest.UdemyLogin@5e403b4a]" started-at="2021-09-27T06:55:06Z" name="doLogin" finished-at="2021-09-27T06:55:10Z" duration-ms="3883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginTest.UdemyLogin@1e730495]" name="afterTest" is-config="true" duration-ms="2726" started-at="2021-09-27T06:52:57Z" finished-at="2021-09-27T06:53:00Z">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:LoginTest.UdemyLogin@5e403b4a]" started-at="2021-09-27T06:55:10Z" name="afterTest" finished-at="2021-09-27T06:55:13Z" duration-ms="2734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
